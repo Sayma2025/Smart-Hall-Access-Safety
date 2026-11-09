@@ -1,0 +1,23 @@
+{
+  "name": "shasms-root",
+  "version": "1.0.0",
+  "description": "Smart Hall Access & Safety Management System (SHASMS) - Monorepo root",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "test:backend": "npm --prefix backend test",
+    "test": "npm run test:backend"
+  },
+  "keywords": [
+    "shasms",
+    "university",
+    "access-control",
+    "hall-safety",
+    "pwa"
+  ],
+  "author": "SHASMS Team",
+  "license": "MIT"
+}
